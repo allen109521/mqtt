@@ -1,0 +1,10 @@
+server:
+ port: 8771
+spring:
+ mqtt:
+  username: admin1
+  password: admin1
+  url: tcp://127.0.0.1:1883
+  consumer:
+   clientId: mqttId222
+   defaultTopic: hello,topics1
